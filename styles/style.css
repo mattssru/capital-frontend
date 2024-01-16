@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+.nopaddingTB {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.nopaddingTB > .MuiGrid-item {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.w_100{
+  width: 100%;
+}
+.h_100{
+  height: 100%;
+}
+.font_semi{
+  /* font-family: 'Prompt-SemiBold' !important; */
+  font-weight: 700 !important;
+}
+.fon_normal{
+  /* font-family: 'Prompt-Regular' !important; */
+  font-weight: 400 !important;
+}
+.text_xl{
+  font-size: 1.875rem !important;
+  line-height: 2.25rem !important;
+}
+.text_lg{
+  font-size: 1.3rem !important;
+  line-height: 1.6rem !important;
+}
+.text_md{
+  font-size: 1.125rem !important;
+  line-height: 1.75rem !important;
+}
+.text_sm{
+  font-size: 1rem !important;
+  line-height: 1.5rem !important;
+}
+.text_xs{
+  font-size: .875rem !important;
+  line-height: 1.2rem !important;
+}
+.text_right{
+  text-align: right;
+}
+.text_center{
+  text-align: center;
+}
+.text_left{
+  text-align: left;
+}
+.color_black{
+  color: #000;
+}
+.color_white{
+  color: #fff;
+}
+.color_primary{
+  color: #11b981;
+}
+.color_secondary{
+  color: #172978;
+}
+.color_warning{
+  color: #eb6244;
+}
+.color_gray{
+  color: #a3a4ba;
+}
+.bg_primary{
+  background-color: #11b981;
+}
+.bg_gray{
+  background-color: #9e9e9e;
+}
+.d_block{
+  display: block;
+}
+.d_flex{
+  display: flex;
+}
+.d_inlineflex{
+  display: inline-flex;
+}
+.d_inlineblock{
+  display: inline-block;
+}
+.align_center{
+  align-items: center;
+}
+.justify_center{
+  justify-content: center;
+}
+.justify_between{
+  justify-content: space-between;
+}
+.mb_1{
+  margin-bottom: 1rem !important;
+}
+.mb_2{
+  margin-bottom: 2rem !important;
+}
+.mt_1{
+  margin-top: 1.1rem !important;
+}
+.mt_2{
+  margin-top: 2rem !important;
+}
+.ml_1{
+  margin-left: 1.1rem !important;
+}
+.ml_2{
+  margin-left: 2rem !important;
+}
+.mr_1{
+  margin-right: 1.1rem !important;
+}
+.mr_2{
+  margin-right: 2rem !important;
+}
+.text_underline{
+  text-decoration: underline !important;
+}
+
+@media (max-width: 768px){
+  .text_lg{
+    font-size: 1.2rem !important;
+    line-height: 1.4rem !important;
+  }
+  .text_md{
+    font-size: 0.95rem !important;
+    line-height: 1.75rem !important;
+  }
+  .mb_1{
+    margin-bottom: 0.75rem !important;
+  }
+  .mr_2{
+    margin-right: 1.7rem !important;
+  }
+}
